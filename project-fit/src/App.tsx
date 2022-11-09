@@ -1,7 +1,10 @@
 import { Page01 } from "./components/Page01";
+import './Global.css'
 
 export function App() {
   return (
-    <Page01 />
+    <body>
+      <Page01 />
+    </body>
   )
 }
