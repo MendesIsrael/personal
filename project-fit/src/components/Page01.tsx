@@ -1,3 +1,6 @@
+import { ChartLineUp } from 'phosphor-react'
+import { ChalkboardTeacher } from 'phosphor-react'
+import { ForkKnife } from 'phosphor-react'
 import styles from './Page01.module.css'
 
 export function Page01() {
@@ -22,21 +25,23 @@ export function Page01() {
       <body>
         <div className={styles.boxBody}>
           <div className={styles.boxAnalise}>
-            <h1>analise</h1>
-            <h2>kgk</h2>
+            <h1>ANÁLISE</h1>
             <p>Nesta aba consiguirá ver todo os gráficos de análises e desenvolvimento</p>
+            <ChartLineUp size={90}/>
           </div>
           <div className={styles.boxInfo}>
-            <h1>info</h1>
+            <h1>INFO</h1>
             <p>Digite todas as informações nesta aba</p>
+            <ChalkboardTeacher size={90}/>
           </div>
           <div className={styles.sectionPrescricao}>
-            <div className={styles.boxPrescricao}>Periodizacao</div>
-            <div className={styles.boxPrescricao}>Treino auto</div>
-            <div className={styles.boxPrescricao}>Treino manual</div>
+            <div className={styles.boxPrescricao}>PERIODIZAÇÃO</div>
+            <div className={styles.boxPrescricao}>TREINO AUTO</div>
+            <div className={styles.boxPrescricao}>TREINO MANUAL</div>
           </div>
           <div className={styles.boxNutricao}>
-            <h1>nutriçao</h1>
+            <h1>NUTRIÇÃO</h1>
+            <ForkKnife size={90}/>
           </div>
         </div>
       </body>
